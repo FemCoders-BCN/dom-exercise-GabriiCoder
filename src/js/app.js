@@ -34,13 +34,13 @@ const colors = {
     mensajeContainer.textContent = whiteButton.textContent;
     mensajeContainer.style.display = "block";
     mensajeContainer.style.fontWeight = "bolder";
-    mensajeContainer.style.fontSize = "1.5em";
+    mensajeContainer.style.fontSize = "0.9rem";
     mensajeContainer.style.color = "green";
-  
+    
     setTimeout(() => {
-      mensaje.style.display = "none";
-    }, 2000);
-  };
+        mensajeContainer.style.display = "none";
+      }, 2000);
+    }; //Oculta el mensaje despues de dos segundos
   
   // Manejadores de eventos
   function handleColorButtonClick(color) {
